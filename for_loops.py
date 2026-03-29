@@ -8,6 +8,16 @@
 #     print(f"{number} is my friend")
     
     
-#steps()
-for number in range(100, 150, 10):
-    print(f"{number} is my friend")
+# #steps()
+# for number in range(0, 10,-1):
+#     print(f"{number} is my friend")
+
+grades = [80, 75, 90, 100, 85]
+amount = len(grades)
+total = 0
+
+for grade in grades:
+    #total = total + grade
+    total += grade
+    
+print(total/amount)
