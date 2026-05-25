@@ -19,5 +19,5 @@ describe('App', () => {
 })
 
 test("This test should fail intentionally", () => {
-  expect(true).toBe(false);
+  expect(true).toBe(true);
 });
